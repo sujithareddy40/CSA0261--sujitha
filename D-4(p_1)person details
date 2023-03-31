@@ -1,0 +1,13 @@
+#include<stdio.h>
+struct person
+{
+	char name[20];
+	int age;
+	float height;
+}p1;
+main()
+{
+	scanf("%S%d%f",p1.name,&p1.age,&p1.height);
+	printf("%S%d%f",p1.name,p1.age,p1.height);
+
+}
